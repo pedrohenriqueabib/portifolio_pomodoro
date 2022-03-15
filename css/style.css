@@ -1,0 +1,46 @@
+*{
+    padding:0;
+    margin:0;
+}
+
+.bloco{
+    height: 20vh;
+    background-color: darkslategray;
+}
+
+.container{
+    width: 20%;
+    margin: 20vh auto;
+}
+
+.marker, .buttons{
+    text-align: center;
+}
+
+.marker{
+    background-color: white;
+    border: 2px solid;
+}
+
+#time{
+    font-size: 5vw;
+}
+ 
+.buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: dimgrey;
+}
+
+.buttons p{
+    width: 8vw;
+    margin: 2vw;
+    cursor: pointer;
+    border-radius: 35%;
+    background-color: green;
+}
+
+#resetar{
+    display: none;
+}
